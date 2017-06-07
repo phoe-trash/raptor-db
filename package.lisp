@@ -5,4 +5,6 @@
   (:use #:cl
         #:alexandria
         #:bknr.datastore
-        #:bknr.indices))
+        #:bknr.indices
+        #:cl-who
+        #:lucerne))

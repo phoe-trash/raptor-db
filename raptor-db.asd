@@ -5,8 +5,10 @@
   :author "Your Name <your.name@example.com>"
   :license "Specify license here"
   :serial t
-  :depends-on (:bknr.datastore
-               :bknr.indices
-               :alexandria)
+  :depends-on (#:bknr.datastore
+               #:bknr.indices
+               #:alexandria
+               #:cl-who
+               #:lucerne)
   :components ((:file "package")
                (:file "raptor-db")))
